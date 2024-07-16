@@ -1,0 +1,22 @@
+{% extends "core/base.html" %}
+{% load static %}
+{% block content %}
+<div>
+    <div class="text-center">
+        <img src="{% static "core/img/img1.jpg" %}" alt="Logo" class="img-thumbnail mt-3" width="200px" height="100px">
+    </div>
+    <div class="mt-5 text-white mx-5" style="text-align: justify;">
+        <h1 class="font-weight-bold mt-2 satisfy-regular"> Hello, </h1>
+        <div class="px-4" style= "line-height:2rem;">
+            <p style="text-indent:100px;">
+                Enthusiastic<b class= "text-warning"> BCA </b>graduate with a passion for technology and a strong foundation in programming languages such as Java and Python. Proven ability to work collaboratively in team environments, demonstrated through successful completion of various group projects during academic tenure. Possess a solid understanding of database management systems and web development principles. Eager to leverage academic knowledge and practical experience gained through internships to contribute effectively to a dynamic IT team. Excellent communication skills and a quick learner with a commitment to continuous self-improvement. Seeking an opportunity to kickstart a rewarding career in software development or related fields.
+            </p>
+        </div>
+    <div>
+        <div class="text-center">
+            <a href="{% url "contact-saved" %}" class="btn btn-outline-warning my-3 mr-5">Hire me</a>
+            <a href="{% url "contact-saved" %}" class="btn btn-outline-info my-3">Contact</a>
+        </div>
+</div>
+
+{% endblock content %}

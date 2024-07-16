@@ -1,0 +1,14 @@
+{% load static %}
+<div style="border-right: 1px solid yellow; height: 100%;">
+    <div class="text-center">
+        <img src="{% static "core/img/img1.jpg" %}" alt="Logo" class="img-fluid rounded-circle mt-2" width="150px" height="150px">
+        <h3 class="text-white mt-2 satisfy-regular">Ravi Ukani</h3>
+    </div>
+    <hr class="border-light">
+    <nav class="nav flex-column text-center">
+        <a href="{% url "home-saved" %}" class="nav-link {{home}}"><i class="fa-solid fa-house"></i> Home</a>
+        <a href="{% url "services-saved" %}" class="nav-link {{services}}"><i class="fa-solid fa-server"></i> Services</a>
+        <a href="{% url "skill-saved" %}" class="nav-link {{skill}}"><i class="fa-solid fa-code"></i> Skill</a>
+        <a href="{% url "contact-saved" %}" class="nav-link {{contact}}"><i class="fa-solid fa-address-book"></i> Contact</a>
+    </nav>
+</div>

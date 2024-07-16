@@ -4,4 +4,5 @@ asgi.py
 wsgi.py
 __pycache__
 migrations
-tests.py     
+tests.py 
+__init__.py   
