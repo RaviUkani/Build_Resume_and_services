@@ -1,6 +1,5 @@
 db.sqlite3
 __pycache__
 asgi.py
-wsgi.py
 migrations
 tests.py 
