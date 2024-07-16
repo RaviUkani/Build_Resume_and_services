@@ -1,0 +1,7 @@
+db.sqlite3
+__pycache__
+asgi.py
+wsgi.py
+__pycache__
+migrations
+tests.py     
